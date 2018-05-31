@@ -2,8 +2,9 @@
     background-image: url("../img/banner.jpg");
    height:4.92rem ;
     width: 100%;
+    background-repeat: no-repeat;
     background-size:cover;
-    background-position: center center;
+    background-position: center top;
 
 }
 .hd{
@@ -14,10 +15,65 @@
     top:0.26rem;
 }
 .hm{
+    color:#f6d9e3;
     border: solid 1px #f6d9e3;
     width: 100%;
     height: 0.86rem;
     font-size:0.28rem ;
-    color: #f6d9e3;
     padding-left: 0.16rem;
+}
+#dygg{
+     padding: 0.48rem 0.2rem;
+ }
+.dyg-1{
+    width: 1.68rem;
+    height: 1.10rem;
+    background-color: #fb9ac7;
+    color: white;
+    font-size: 0.32rem;
+    border-radius: 8px;
+    box-shadow: inset 0 -4px 0 rgba(232,120,172,1);
+    padding: 0 0.1rem;
+   display: inline-block;
+}
+.bax{
+    height: 0.29rem;
+    width: 0.29rem;
+}
+.dyg-2{
+    border: solid 1px #f6d9e3;
+    width: 1.68rem;
+    height: 1.10rem;
+    border-radius: 8px;
+    color: #353535;
+    font-size:0.32rem;
+   display: inline-block;
+}
+.dy{
+    margin: 0 0.14rem;
+}
+.ddy{
+    margin-right: 0.14rem;
+}
+#wxzf{
+    width: 100%;
+    height: 0.88rem;
+    border: 1px solid #ffe5f3;
+}
+#wxzf>img{
+    height: 0.43rem;
+    width: 0.51rem;
+    display: inline-block;
+}
+#wxzf>span{
+    font-size: 0.28rem;
+    color: #353535;
+    display: block;
+}
+#wxzf>.quang{
+    border-radius: 50%;
+    border: 1px solid red;
+    height: 0.33rem;
+    width: 0.33rem;
+    display: inline-block;
 }
