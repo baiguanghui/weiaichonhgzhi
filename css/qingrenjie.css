@@ -8,10 +8,9 @@
 
 }
 .hd{
-    width: 2.04rem;
     height: 0.46rem;
     position: absolute;
-   left:5.6rem;
+   right:0;
     top:0.26rem;
 }
 .hm{
@@ -21,9 +20,11 @@
     height: 0.86rem;
     font-size:0.28rem ;
     padding-left: 0.16rem;
+    margin-top: 0.46rem;
 }
 #dygg{
      padding: 0.48rem 0.2rem;
+    margin: 0.46rem 0;
  }
 .dyg-1{
     width: 1.68rem;
@@ -40,6 +41,9 @@
     height: 0.29rem;
     width: 0.29rem;
 }
+.dyg-1>p{
+    width: 1.30rem;
+}
 .dyg-2{
     border: solid 1px #f6d9e3;
     width: 1.68rem;
@@ -55,20 +59,21 @@
 .ddy{
     margin-right: 0.14rem;
 }
+
 #wxzf{
     width: 100%;
     height: 0.88rem;
     border: 1px solid #ffe5f3;
+   background-color: white;
 }
 #wxzf>img{
     height: 0.43rem;
     width: 0.51rem;
-    display: inline-block;
 }
 #wxzf>span{
     font-size: 0.28rem;
     color: #353535;
-    display: block;
+    margin: 0 4.9rem 0 0.28rem;
 }
 #wxzf>.quang{
     border-radius: 50%;
@@ -76,4 +81,40 @@
     height: 0.33rem;
     width: 0.33rem;
     display: inline-block;
+}
+#wwxzf{
+    width: 100%;
+    height: 0.88rem;
+    border: 1px solid #ffe5f3;
+    background-color: white;
+}
+#wwxzf>.tu-1{
+    height: 0.36rem;
+    width: 0.57rem;
+}
+#wwxzf>span{
+    font-size: 0.28rem;
+    color: #353535;
+    margin: 0 4.84rem 0 0.24rem;
+}
+#wwxzf>.tu-2{
+    height: 0.38rem;
+    width: 0.38rem;
+}
+
+#butb{
+    padding: 0 0.2rem;
+}
+#butb>button{
+    width: 100%;
+    height: 0.88rem;
+    background-color: #fb9ac7;
+    font-size: 0.3rem;
+    border-radius: 8px;
+    color: white;
+    box-shadow: inset 0 -4px 0 rgba(232 ,120 ,172 ,1);
+}
+#butb>button:active{
+    box-shadow: inset 0 -4px 0 rgba(232 ,120 ,172 ,1);
+    transform: translateY(4px);
 }
