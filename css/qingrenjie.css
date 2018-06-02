@@ -23,7 +23,7 @@
     margin-top: 0.46rem;
 }
 #dygg{
-     padding: 0.48rem 0.2rem;
+     /*padding: 0.48rem 0.2rem;*/
     margin: 0.46rem 0;
  }
 .dyg-1{
@@ -80,7 +80,7 @@
     border: 1px solid red;
     height: 0.33rem;
     width: 0.33rem;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 #wwxzf{
     width: 100%;
