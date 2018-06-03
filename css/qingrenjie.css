@@ -62,7 +62,6 @@ input.money{
     text-align: center;
 }
 
-
 #wxzf{
     width: 100%;
     height: 0.88rem;
@@ -93,7 +92,6 @@ input.money{
 .gou{
     display: none;
 }
-
 
 #wwxzf{
     width: 100%;
@@ -131,3 +129,20 @@ input.money{
     box-shadow: inset 0 -4px 0 rgba(232 ,120 ,172 ,1);
     transform: translateY(4px);
 }
+/*µ¯´°¿ªÊ¼*/
+.di{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,.5) ;
+    position: absolute;
+}
+.xiaodi{
+    width: 70vw;
+    height: 60vh;
+    background: white;
+    border-radius:20px;
+
+
+
+}
+/*µ¯´°½áÊø*/
