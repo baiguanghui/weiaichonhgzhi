@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center top;
-
 }
 .hd{
     height: 0.46rem;
@@ -22,43 +21,47 @@
     padding-left: 0.16rem;
     margin-top: 0.46rem;
 }
-#dygg{
-     /*padding: 0.48rem 0.2rem;*/
-    margin: 0.46rem 0;
- }
-.dyg-1{
+
+
+.box{
+    padding: 0 0.2rem;
+    margin:.48rem 0;
+}
+.box>label{
     width: 1.68rem;
-    height: 1.10rem;
-    background-color: #fb9ac7;
-    color: white;
+    height: 1.1rem;
     font-size: 0.32rem;
     border-radius: 8px;
+    border: 1px solid #fb9ac7;
+}
+.box>label.on{
+    color: white;
+    background-color: #fb9ac7;
     box-shadow: inset 0 -4px 0 rgba(232,120,172,1);
-    padding: 0 0.1rem;
-   display: inline-block;
 }
-.bax{
-    height: 0.29rem;
-    width: 0.29rem;
+
+.box>label .first.on>img.heart{
+    display: block;
 }
-.dyg-1>p{
-    width: 1.30rem;
+.box>label .last.on>input.money{
+    display: block;
 }
-.dyg-2{
-    border: solid 1px #f6d9e3;
-    width: 1.68rem;
-    height: 1.10rem;
-    border-radius: 8px;
+.box>label .last.on>span{
+   display: none;
+}
+.heart{
+    height: 0.23rem;
+    width: 0.26rem;
+}
+input.money{
+    display: none;
+    width: 100%;
+    padding: 0 0.14rem;
     color: #353535;
-    font-size:0.32rem;
-   display: inline-block;
+    background: transparent;
+    text-align: center;
 }
-.dy{
-    margin: 0 0.14rem;
-}
-.ddy{
-    margin-right: 0.14rem;
-}
+
 
 #wxzf{
     width: 100%;
@@ -75,13 +78,23 @@
     color: #353535;
     margin: 0 4.9rem 0 0.28rem;
 }
-#wxzf>.quang{
+.quang{
     border-radius: 50%;
     border: 1px solid red;
     height: 0.33rem;
     width: 0.33rem;
-    /*display: inline-block;*/
 }
+
+.gou:checked+.quang{
+    background: url(../img/aixi.png) no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid white
+}
+.gou{
+    display: none;
+}
+
+
 #wwxzf{
     width: 100%;
     height: 0.88rem;
