@@ -1,0 +1,39 @@
+.banner{
+    background-image: url("../img/banner2.jpg");
+    height:4.92rem ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+.kou{
+    height: 1.76rem;
+    width: 7.07rem;
+    background: #fef4f7;
+    border-radius: 8px;
+    margin: 0.3rem 0.2rem 0.64rem 0.2rem;
+}
+.koukuan{
+    font-size: 0.28rem;
+    color: #d16284;
+    display: inline-block;
+    line-height: 0.5rem;
+    padding: 0.24rem 0.24rem;
+}
+.koukuan-1{
+    font-size: 0.26rem;
+    color: #d16284;
+ margin: 0.62rem 0 0 1.14rem;
+}
+.zhuanfa{
+    border: 1px dashed #fb9ac7;
+    height: 0.88rem;
+    width: 7.1rem;
+    border-radius: 8px;
+   margin: 0 0.2rem;
+}
+.zhuanfa>img{
+    height: 0.31rem;
+    width: 4.87rem;
+    margin-left: 1.14rem;
+}

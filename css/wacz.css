@@ -1,0 +1,51 @@
+.banner{
+    background-image: url("../img/banner.jpg");
+    height:4.92rem ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+.beijing{
+    background-image: url("../img/bjt.jpg");
+    height:4.81rem ;
+    width: 6.69rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+.beijing>img{
+    height: 3.34rem;
+    width: 3.34rem;
+}
+.beijing>.zi{
+    height: 0.34rem;
+ width: 3.18rem;
+    margin-bottom: 0.44rem;
+}
+.hdgz{
+    height:1.4rem ;
+    margin:0  0.02rem;
+}
+.hdgz>span{
+    font-size: 0.32rem;
+    color: #f7699e;
+    padding: 0 0.16rem;
+}
+.hdgz>img{
+    width:2.69rem ;
+    height: 0.02rem;
+    color: aqua;
+   margin:0  0.02rem;
+}
+ol{
+    font-size: 0.26rem;
+    color: #f7699e;
+    padding: 0 0.2rem;
+
+}
+ol>li{
+    line-height: 0.45rem;
+    vertical-align: top;
+    display: inline-block;
+}

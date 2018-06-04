@@ -129,23 +129,23 @@ input.money{
     box-shadow: inset 0 -4px 0 rgba(232 ,120 ,172 ,1);
     transform: translateY(4px);
 }
-/*µ¯´°¿ªÊ¼*/
+/*å¼¹çª—å¼€å§‹1*/
 .di{
     width: 100%;
     height: 100%;
     background:rgba(0,0,0,.5) ;
     position: absolute;
 
-    display: none;
+    /*display: none;*/
 }
 .xiaodi{
-    width: 80vw;
+    width: 90vw;
     background: white;
     border-radius:20px;
+    padding: 0 .5rem;
 }
 .hdgz{
     height:1.4rem ;
-   padding: 0 0.5rem;
 }
 .hdgz>span{
     font-size: 0.32rem;
@@ -153,18 +153,20 @@ input.money{
     padding: 0 0.16rem;
 }
 .hdgz>img{
-    width:1.0rem ;
+    width:1.6rem ;
     height: 0.02rem;
     color: aqua;
 }
 ol{
     font-size: 0.26rem;
     color: #f7699e;
-   margin: 0 0.46rem;
+   padding: 0 0.5rem;
 }
 ol>li{
     width: 5rem;
     line-height: 0.45rem;
+    vertical-align: top;
+    display: inline-block;
 }
 #but{
     padding: 0 0.2rem;
@@ -183,19 +185,19 @@ ol>li{
     box-shadow: inset 0 -4px 0 rgba(232 ,120 ,172 ,1);
     transform: translateY(4px);
 }
-/*µ¯´°½áÊø*/
+/*å¼¹çª—ç»“æŸ1*/
 
-/*µ¯´°¿ªÊ¼2*/
+/*å¼¹çª—å¼€å§‹2*/
 .dd{
     width: 100%;
     height: 100%;
     background:rgba(0,0,0,.5) ;
     position: absolute;
-    display: none;
+
+    /*display: none;*/
 }
 .xiaodd{
     width:90vw;
-    height: 30vh;
     background:white;
     border-radius:20px;
 }
@@ -233,13 +235,55 @@ font-size: 0;
     background-color: #fb9ac7;
     font-size: 0.3rem;
 }
-/*µ¯´°½áÊø2*/
+/*å¼¹çª—ç»“æŸ2*/
 
-/*/!*ÃÉ²ã¿ªÊ¼*!/*/
-/*.d-none{*/
-    /*display: none!important;*/
-/*}*/
-/*/!*ÃÉ²ã½áÊø*!/*/
+/*å¼¹çª—å¼€å§‹3*/
+.ddd{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,.5) ;
+    position: absolute;
+
+    /*display: none;*/
+}
+.xiaoddd{
+    width:90vw;
+    background:white;
+    border-radius:20px;
+}
+
+.tongzhiii{
+    font-size: 0.28rem;
+    color: #f7699e;
+    display: inline-block;
+   padding: 0.6rem 0.7rem 0.7rem 0.6rem ;
+    line-height: 0.46rem;
+}
+.annn{
+    font-size: 0;
+    margin-top: 0.1rem;
+    color: white;
+
+}
+.quxiaoo{
+    width:  3.37rem;
+    height: 1.2rem;
+    background-color: #cbcbcb;
+    font-size: 0.3rem;
+}
+.querenn{
+    width:  3.37rem;
+    height: 1.2rem;
+    background-color: #fb9ac7;
+    font-size: 0.3rem;
+}
+/*å¼¹çª—ç»“æŸ3*/
+
+/*è’™å±‚æœ€å¤§å±‚çº§å¼€å§‹*/
+.d-none{
+    display: none!important;
+}
+/*è’™å±‚æœ€å¤§å±‚çº§ç»“æŸ*/
 
 
 
