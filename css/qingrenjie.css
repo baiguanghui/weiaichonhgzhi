@@ -135,7 +135,7 @@ input.money{
     height: 100%;
     background:rgba(0,0,0,.5) ;
     position: absolute;
-
+z-index: 10;
     /*display: none;*/
 }
 .xiaodi{
@@ -276,6 +276,12 @@ font-size: 0;
     height: 1.2rem;
     background-color: #fb9ac7;
     font-size: 0.3rem;
+}
+
+.hh-1{
+    font-size: 0.28rem;
+    color: crimson;
+    display: inline-block;
 }
 /*弹窗结束3*/
 

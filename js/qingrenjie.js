@@ -28,46 +28,48 @@ $(function(){
 
       if(aa.test(i)){
           $(".dd").removeClass("d-none");
-          $("").addClass("d-none");
+          $(".hm-1").addClass("d-none");
       }else {
-          $("").removeClass("d-none");
+          $(".hh-1").removeClass("d-none");
       }
 
     });
 // 立即支付结束
 
-// 关闭第2弹窗
-    $(".ann").click(function () {
-        $(".dd").addClass("d-none");
-        $(".quxiao").val("")
-    });
+
 // 确认第2弹窗
     $(".queren").click(function () {
-        var ab=$(".queren").val();
-        var abc=$(".quxiao").val();
+        var ab=$(".hh").val();
+        var abc=$(".hm").val();
         var aa=/^[1][3,4,5,6,7,8][0-9]{9}$/;
-        if(aa.ab(abc)){
+        if(aa.test(ab)){
             if(ab===abc){
-                $("").removeClass("d-none")
+                $(".ddd").removeClass("d-none")
                 $(".dd").addClass("d-none")
             }else {
                 window.location.href="czcg.html"
             }
 
         }else {
-            $("").removeClass("d-none")
+            //$(".hh-1").removeClass("d-none")
         }
     });
 
 
+// 关闭第2弹窗
+    $(".quxiao").click(function () {
+        $(".dd").addClass("d-none");
+        //$(".xiaodd").val("")
+    });
+
 // 弹窗开始3
-$(".ddd").click(function () {
-    $(".quxiaoo").addClass("d-none")
-    $(".querenn").removeClass("d-none")
+$("quxiaoo").click(function () {
+    $(".dd").addClass("d-none")
+    $(".ddd").removeClass("d-none")
 });
-$(".tongzhiii").click(function () {
-    window.location.href="wacz.html"
-})
+$(".querenn").click(function () {
+    window.location.href="czcg.html"
+});
 // 弹窗结束3
 
 
