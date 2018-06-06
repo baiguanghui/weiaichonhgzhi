@@ -55,13 +55,20 @@ img.heart{
     display: none;
 }
 input.money{
-    display: none;
+    /*display: none;*/
+  display: inline-block;
     width: 100%;
     padding: 0 0.14rem;
     color: #353535;
     background: transparent;
     text-align: center;
 }
+/*input{*/
+    /*display: none;*/
+    /*text-align: center;*/
+    /*padding: 0 0.14rem;*/
+/*}*/
+
 /*.dyg-2{*/
     /*white-space: nowrap;*/
 /*}*/

@@ -4,7 +4,7 @@ $(function(){
        $(".box>label").click(function(){
            $(this).addClass("on").siblings().removeClass("on");
            if($(this).hasClass("last")){
-               $(this).children("input").focus();
+               $(this).children('input').focus();
            }
        })
     });
@@ -29,7 +29,7 @@ $(function(){
 
       if(aa.test(i)){
           $(".dd").removeClass("d-none");
-          $(".hm-1").addClass("d-none");
+          $(".hh-1").addClass("d-none");
       }else {
           $(".hh-1").removeClass("d-none");
       }
