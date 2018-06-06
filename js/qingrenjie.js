@@ -4,7 +4,7 @@ $(function(){
        $(".box>label").click(function(){
            $(this).addClass("on").siblings().removeClass("on");
            if($(this).hasClass("last")){
-               $(this.children("input").focus())
+               $(this).children("input").focus();
            }
        })
     });
@@ -15,11 +15,12 @@ $(function(){
        $(".di").removeClass("d-none")
    });
 // 弹窗结束1
-// 弹窗关闭开始1
-   $("#but").click(function () {
-      $(".di").addClass("d-none")
-   });
-// 弹窗关闭结束1
+
+// // 弹窗关闭开始1
+//    $("#but").click(function () {
+//       $(".di").addClass("d-none")
+//    });
+// // 弹窗关闭结束1
 
 // 立即支付开始
     $("#butb").click(function () {
@@ -51,7 +52,7 @@ $(function(){
             }
 
         }else {
-            //$(".hh-1").removeClass("d-none")
+            $(".hh-2").removeClass("d-none");
         }
     });
 
@@ -59,7 +60,6 @@ $(function(){
 // 关闭第2弹窗
     $(".quxiao").click(function () {
         $(".dd").addClass("d-none");
-        //$(".xiaodd").val("")
     });
 
 // 弹窗开始3
