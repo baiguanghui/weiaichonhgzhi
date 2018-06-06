@@ -16,11 +16,11 @@ $(function(){
    });
 // 弹窗结束1
 
-// // 弹窗关闭开始1
-//    $("#but").click(function () {
-//       $(".di").addClass("d-none")
-//    });
-// // 弹窗关闭结束1
+// 弹窗关闭开始1
+   $("#but").click(function () {
+      $(".di").addClass("d-none")
+   });
+// 弹窗关闭结束1
 
 // 立即支付开始
     $("#butb").click(function () {
@@ -48,7 +48,7 @@ $(function(){
                 $(".ddd").removeClass("d-none")
                 $(".dd").addClass("d-none")
             }else {
-                window.location.href="czcg.html"
+                window.location.href="wacz.html"
             }
 
         }else {
