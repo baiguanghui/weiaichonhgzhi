@@ -55,8 +55,7 @@ img.heart{
     display: none;
 }
 input.money{
-    /*display: none;*/
-  display: inline-block;
+    display: none;
     width: 100%;
     padding: 0 0.14rem;
     color: #353535;
